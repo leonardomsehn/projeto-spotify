@@ -1,27 +1,28 @@
 import React from "react";
 
-
 const App2 = () => {
-  return <div>App2</div>
-  };
+  return <div>App2</div>;
+};
 
-  export default App2;
+export default App2;
 
-  //rafce
+//rafce
 
-  // Arrow function
-  // const App2 = () => <h1>Ola mundo</h1>;
+// Arrow function
+// const App2 = () => <h1>Ola mundo</h1>;
 
-  // components com PascalCase
-  // nomeacao de variavel, funcao, com camelCase
+// components com PascalCase
+// nomeacao de variavel, funcao, com camelCase
 
-  // export default nao precisa mesmo nome
+// export default nao precisa mesmo nome
 
-  // self closing tag <Header/>
+// self closing tag <Header/>
 
-  // box model > elemento > padding > border > margin
+// box model > elemento > padding > border > margin
 
-  // Nomeação de classes em CSS Medologia BEM
-  // blocks, elements, modifiers (bloco__elemento--modificador)
-  // header__link
-  // header__link--small
+// Nomeação de classes em CSS Medologia BEM
+// blocks, elements, modifiers (bloco__elemento--modificador)
+// header__link
+// header__link--small
+
+// tag vazia se chama FRAGMENT
