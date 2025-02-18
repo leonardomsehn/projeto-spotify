@@ -26,3 +26,8 @@ export default App2;
 // header__link--small
 
 // tag vazia se chama FRAGMENT
+
+// Componentes recebem "Props"
+// que são os parametros para função
+
+// estudar props e desestruturação!!!
