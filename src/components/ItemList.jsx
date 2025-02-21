@@ -1,13 +1,13 @@
 import React from "react";
 import SingleItem from "./SingleItem";
 
-const ItemList = ({ title, items, itemsArray }) => {
+const ItemList = ({ title, items, itemsArray, path, idPath }) => {
   // console.log(items);
   return (
     <div className="item-list">
       <div className="item-list__header">
         <h2>{title} populares</h2>
-        <a className="item-list__link" href="/">
+        <a className="item-list__link" a href={path}>
           Mostrar tudo
         </a>
       </div>
@@ -21,6 +21,7 @@ const ItemList = ({ title, items, itemsArray }) => {
               // name={currObj.name}
               // image={currObj.image}
               // banner={currObj.banner}
+              idPath={idPath}
               {...currObj}
               key={`${title}-${index}`}
             />
