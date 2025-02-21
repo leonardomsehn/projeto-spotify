@@ -1,7 +1,8 @@
 import React from "react";
 import SingleItem from "./SingleItem";
 
-const ItemList = ({ title }) => {
+const ItemList = ({ title, items }) => {
+  // console.log(items);
   return (
     <div className="item-list">
       <div className="item-list__header">
@@ -12,14 +13,11 @@ const ItemList = ({ title }) => {
       </div>
 
       <div className="item-list__container">
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
-        <SingleItem />
+        {Array(items)
+          .fill()
+          .map((currentValue, index) => (
+            <SingleItem key={`${title}-${index}`} />
+          ))}
       </div>
     </div>
   );

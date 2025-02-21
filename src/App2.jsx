@@ -31,3 +31,26 @@ export default App2;
 // que são os parametros para função
 
 // estudar props e desestruturação!!!
+
+/*{ {items === 5 ? (
+  <>
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+</>
+) : (
+<>
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+  <SingleItem />
+</>
+)} }*/
