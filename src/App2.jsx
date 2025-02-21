@@ -54,3 +54,9 @@ export default App2;
   <SingleItem />
 </>
 )} }*/
+
+// {Array(items)
+// .fill()
+// .map((currentValue, index) => (
+//   <SingleItem key={`${title}-${index}`} />
+// ))}
